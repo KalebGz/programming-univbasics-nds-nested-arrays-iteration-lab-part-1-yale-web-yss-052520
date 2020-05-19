@@ -16,7 +16,7 @@ src.length.times{|row_index|
 
 src[row_index].length.times{|col_index|
 if( src[row_index][col_index] % 2 == 0)
-    puts(src[index])
+    puts(src[row_index][col_index])
   end
 }
 
