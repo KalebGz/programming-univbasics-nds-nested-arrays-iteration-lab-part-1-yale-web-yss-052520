@@ -15,11 +15,11 @@ def find_even_values(src)
 src.length.times{|row_index|
 
 src[row_index].length.times{|col_index|
-
-}
-  if( val % 2 == 0)
+if( src[row_index][col_index] % 2 == 0)
     puts(src[index])
   end
+}
+
 }
 
 end
