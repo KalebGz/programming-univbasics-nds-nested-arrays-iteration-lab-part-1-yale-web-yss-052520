@@ -4,12 +4,22 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
 
-src = src.flatten
+# src = src.flatten
+# src.length.times{|index|
+# val = src[index] 
+#   if( val % 2 == 0)
+#     puts(src[index])
+#   end
+# }
 
-src.length.times{|index|
-val = src[index] 
+src.length.times{|row_index|
+
+src[row_index].length.times{|row_index|
+
+}
   if( val % 2 == 0)
     puts(src[index])
   end
 }
+
 end
