@@ -14,7 +14,7 @@ def find_even_values(src)
 
 src.length.times{|row_index|
 
-src[row_index].length.times{|row_index|
+src[row_index].length.times{|col_index|
 
 }
   if( val % 2 == 0)
