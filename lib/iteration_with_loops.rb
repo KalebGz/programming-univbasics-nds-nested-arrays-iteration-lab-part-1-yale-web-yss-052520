@@ -8,7 +8,6 @@ src = src.flatten
 
 src.length.times{|index|
 val = src[index] 
-binding.pry
   if( val % 2 == 0)
     puts(src[index])
   end
